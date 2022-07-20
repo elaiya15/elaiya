@@ -1,0 +1,41 @@
+
+var obj1 = [{ name: "person", age: 5 }];
+var obj2 = [{ age: 5, name: "person" }];
+
+var flag = true;
+
+if (Object.keys(obj1).length == Object.keys(obj2).length) {
+    for (key in obj1) {
+        if (obj1[key] == obj2[key]) {
+            continue;
+        } else {
+            flag = false;
+            break;
+        }
+    }
+} else {
+    flag = false;S
+}
+console.log("is object equal" + flag);
+
+
+
+
+
+
+
+var request = new XMLHttpRequest();
+request.open("GET", "https://raw.githubusercontent.com/rvsp/restcountries-json-data/master/res-countries.json");
+request.send();
+request.onload = function() {
+    var result = JSON.parse(request.response);
+    console.log(result);
+
+    var res = result.filter((ele) => ele.flage).map((ele) => ele.name);
+    console.log(res);
+var ruls = res.filter((ele) => countries).map((ele) => ele.name);
+    console.log(ruls);
+var root = res.filter((ele) => subregion).map((ele) => ele.name);
+    console.log(root);
+
+}
