@@ -1,0 +1,29 @@
+#ab782b474a3 {
+    background-color: rgb(98, 221, 164);
+}
+
+.fa {
+    color: rgb(245, 241, 237);
+}
+
+.box-part {
+    background-color: rgba(189, 120, 31, 0.521);
+    padding: 40px 10px;
+    margin: 20px 0px;
+}
+
+span {
+    font-size: 12px;
+}
+
+.text {
+    margin: 20px 0px;
+}
+
+a {
+    border-bottom: 2px solid rgb(0, 54, 54);
+}
+
+.box {
+    padding: 50px 0px;
+}
